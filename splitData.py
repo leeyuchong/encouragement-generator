@@ -149,7 +149,7 @@ def shuffle(inputFileName, outputFileName):
             comment = row[0]
 
             postASCII = post.encode(encoding='ascii', errors='ignore').decode()
-            commentASCII = post.encode(encoding='ascii', errors='ignore').decode()
+            commentASCII = comment.encode(encoding='ascii', errors='ignore').decode()
             writer.writerow([commentASCII, postASCII])
         
         outputFile.close()
