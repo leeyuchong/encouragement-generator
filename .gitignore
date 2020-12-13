@@ -2,3 +2,7 @@
 glove.6B.100d.txt
 glove.6B.200d.txt
 .DS_Store
+saved_model.pb
+variables.data-00000-of-00001
+Embed_Model
+One-Hot_Model
